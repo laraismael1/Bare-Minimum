@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Group travel app",
   "main": "index.js",
+  "engines": {
+    "node": "3.10.10"
+  }, 
   "scripts": {
     "start": "node --require dotenv/config server/index.js",
     "test-server": "NODE_ENV=development mocha --bail --reporter nyan spec/server-spec.js;",
