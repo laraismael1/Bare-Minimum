@@ -4,7 +4,7 @@
   "description": "Group travel app",
   "main": "index.js",
   "engines": {
-    "node": "3.10.10"
+    "node": "6.11.1"
   }, 
   "scripts": {
     "start": "node --require dotenv/config server/index.js",
